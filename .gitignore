@@ -39,6 +39,10 @@ nb-configuration.xml
 # Local environment
 .env
 
+# Build logs (except evidence logs)
+*.log
+!logs/*.log
+
 # Plugin directory
 /.quarkus/cli/plugins/
 # TLS Certificates
