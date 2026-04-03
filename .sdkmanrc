@@ -1,0 +1,10 @@
+# SDKMAN auto-version switching
+# This file automatically switches Java version when entering this directory
+# Requires: sdkman_auto_env=true in ~/.sdkman/etc/config
+
+# Use GraalVM 25+ (latest version with PR #10030)
+# This version has java.home detection warnings
+java=25.0.2-graal
+
+# Alternative for EA builds (latest features)
+# java=26.ea.13-graal
